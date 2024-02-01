@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+    android:startColor="#8AECA2"
+    android:centerColor="#BDE061"
+    android:endColor="#D3DC51"
+    android:angle="45"/>
+    <!-- 추가 속성들 (옵션): 모서리 둥글게, 패딩 등 -->
+</shape>

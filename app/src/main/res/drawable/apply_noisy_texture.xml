@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 그레인 텍스처를 적용하는 레이어 -->
+    <item>
+        <bitmap
+            android:src="@drawable/noisy_texture"
+            android:tileMode="repeat" />
+    </item>
+
+    <!-- 모서리가 둥근 사각형을 생성하는 레이어 -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/> <!-- 투명 배경 -->
+            <corners
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"/>
+        </shape>
+    </item>
+</layer-list>
