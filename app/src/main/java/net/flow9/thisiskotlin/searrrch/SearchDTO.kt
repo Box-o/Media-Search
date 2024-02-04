@@ -38,3 +38,10 @@ data class Document(
     val docUrl: String?,
     val datetime: Date?
 )
+
+data class SearchItemModel(
+    var title: String,
+    var dateTime: String,
+    var url: String,
+    var isLike: Boolean = false
+)
